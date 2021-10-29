@@ -1,5 +1,39 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    }
+
 body {
-    background:bisque;
+    background: #b2c1ca;
+    background-attachment: fixed;
     margin: 0;
-   
   }
+  
+  main {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    height: 100vh;
+  }
+
+  header {
+    height: 10%;
+    background-color: #134d71;
+    margin: 0;
+    padding: 2.5rem;
+  }
+
+  h1 {
+    color: white;
+  }
+  
+  /* .card-grid-sec{
+      border: 3px solid green;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 20px;
+      padding: 30px;
+      min-height: 45vh;
+      height: auto
+  } */
+
+  
