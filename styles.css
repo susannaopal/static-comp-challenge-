@@ -1,0 +1,62 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    }
+
+body {
+    background: rgb(202, 187, 168);
+    background-attachment: fixed;
+    margin: 0;
+  }
+
+  header {
+    height: 10%;
+    background-color: #020b11;
+    margin: 0;
+    padding: 2.5rem;
+  }
+
+  
+  main {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    height: 100vh;
+  }
+
+  .left-bar-info {
+    display: flex;
+    display: grid;
+    border: 4px solid rgb(212, 24, 24);
+
+  }
+
+  .right-bar-info {
+    display: flex;
+    display: grid;
+    border: 4px yellow rgb(212, 24, 24);
+
+  }
+
+  .shares {
+    /* color: white; */
+    border: 4px solid rgb(110, 255, 105);
+
+  }
+
+  .playlist,
+  .personal-videos {
+    color: silver;
+    border: 4px solid rgb(255, 105, 198);
+  }
+
+  .admin-username {
+      color: rgb(49, 119, 211);
+      border: 2px solid rgb(255, 173, 105);
+  }
+
+  .logo {
+      border: 3px dotted white;
+      color: white;
+  }
+
+ 
