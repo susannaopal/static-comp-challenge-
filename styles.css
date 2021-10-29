@@ -59,4 +59,11 @@ body {
       color: white;
   }
 
- 
+ .card-grid{
+     /* display: grid;
+     grid-template-columns: (4, 1fr);
+     grid-auto-rows: auto;
+     grid-gap: 1rem;
+     /* border: 2px dotted black; */ 
+     border: 3px solid green;
+ }
