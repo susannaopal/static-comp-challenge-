@@ -78,6 +78,14 @@ body {
      border: 3px dotted green;   
  }
 
+ .card-1, 
+ .card-2,
+ .card-3,
+ .card-4 {
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
+    padding: 0.5rem;
+ } 
 
 
 
