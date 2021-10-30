@@ -67,14 +67,23 @@ body {
      min-height: 45vh;
      height:auto;
      width: auto; */ 
-     display: grid;
+     /* display: grid;
      grid-template-columns: repeat(4, 1fr);
      grid-auto-rows: auto;
      grid-gap: 1rem;
      border-radius: 4px;
      padding: .5rem;
+     width: auto; */
+     /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+     max-width: 2000px;
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+     grid-auto-rows: 0.2fr;
+     grid-gap: 10px;
      border: 3px dotted green;   
  }
+
 
  .card-1, 
  .card-2,
@@ -84,11 +93,41 @@ body {
     border-radius: 4px;
     padding: 0.5rem;
     height: 395px;
+    width: auto;
  } 
 
+ /* @media (min-width: 900px) {
+.card-1, 
+ .card-2,
+ .card-3,
+ .card-4  { grid-template-columns: repeat(3, 1fr); }
+  }
 
 
-
+  @media only screen and (max-width: 1068px) {
+    .card-1, 
+    .card-2,
+    .card-3,
+    .card-4  {
+      max-width: 50%;
+    }
+  }
+  
+  @media only screen and (max-width: 734px) {
+    .card-1, 
+    .card-2,
+    .card-3,
+    .card-4  {
+      min-width: 90%;
+    }
+  
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+    ..card-1, 
+    .card-2,
+    .card-3,
+    .card-4  {
+      min-width: 90%; */
 
 
  /* .cards {
