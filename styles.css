@@ -202,3 +202,9 @@ justify-content: space-around;
   color: rgb(49, 119, 211);
   font-size: xx-large;
 }
+
+.mike-card {
+  isplay: inline-block;
+  position: relative;
+  width: 100%;
+}
