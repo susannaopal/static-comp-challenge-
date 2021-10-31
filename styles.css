@@ -203,8 +203,57 @@ justify-content: space-around;
   font-size: xx-large;
 }
 
+
+.card-top1 {
+  background: url(assets/stanley.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-top2 {
+  background: url(assets/pam.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-top3 {
+  background: url(assets/jim-office.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-top4 {
+  background: url(assets/angela.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-top5 {
+  background: url(assets/kelly.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-top6 {
+  background: url(assets/phyllis.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .card-top7 {
   background: url(assets/michael.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card-top8 {
+  background: url(assets/dwight.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
