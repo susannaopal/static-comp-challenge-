@@ -71,7 +71,9 @@ body {
 
 }
 
-
+/* the buttons will need to be split up and spaced apart and icons added
+need to figure out how the hell to get the admin ones to top and the other one to the far right with the other three
+spread out correctly towards the bottom left */
     .sharesBTN,
     .playlistBTN,
     .personal-videosBTN {
@@ -147,3 +149,8 @@ body {
   font-size: small;
   font-weight: bolder;
  }
+
+ .zero-4 {
+  color: rgb(49, 119, 211);
+  font-size: xx-large;
+}
