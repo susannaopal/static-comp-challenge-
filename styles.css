@@ -55,9 +55,10 @@ body {
 
 .admin-username {
   color: rgb(49, 119, 211);
-  /* border: 2px solid rgb(255, 173, 105); */
   height: 4px;
-  background-color: rgba(255,255,255,0);
+  /* background-color: rgba(255,255,255,0); */
+  margin-right: -215px;
+  margin-top: 10px;
 
 }
 
@@ -68,14 +69,18 @@ body {
   border: 2px solid white;
   align-items: flex-end;
 } */
+.connect-icon {
+  color: white;
+  height: 20px;
+  width: 20px;
+  margin-bottom: 20px;
+}
 
 .win-icon {
   color: white;
   height: 50px;
-  width: 70px;
-  border-radius: 5px;
-  font-size: 1em;
-  margin: 1.5rem;
+  margin-top: 78px;
+  margin-right: 20px;
 }
 
 .username-icon
@@ -86,52 +91,49 @@ body {
   border-radius: 5px;
   font-size: 1em;
 }
+.cake-icon {
+  color: white;
+  height: 20px;
+  width: 20px;
+  margin-bottom: 20px;
+}
+
+.person-icon {
+  color: white;
+  height: 20px;
+  width: 20px;
+  margin-bottom: 20px;
+}
 
 .icon-btns {
   /* //mess around with stuff and shit with margins */
-  display: flex;
-  width: 50%;
-  height: 100%;
-  border: 2px solid white;
-  align-items: flex-end;
+display: flex;
+color: white;
+width: 50%;
+height: 100%;
+border: 2
+px
+solid white;
+align-items: flex-end;
+justify-content: space-around;
 }
 
 .admin-stuff {
-  /* fix with margins & padding & shit */
   display: flex;
   width: 50%;
   height: 100%;
-  border: 2px solid yellow;
   flex-direction: row;
   justify-content: flex-end;
 }
 
-/* the buttons will need to be split up and spaced apart and icons added
-need to figure out how the hell to get the admin ones to top and the other one to the far right with the other three
-spread out correctly towards the bottom left */
-    .sharesBTN,
-    .playlistBTN,
-    .personal-videosBTN {
-      border: 2px solid pink;
-      height:4rem;
-      width: 6rem;
-      border-radius: 5px;
-      /* font-size: 1em;
-      margin: 1.5rem; */
-    }
-
-  /* .top-BTNs {
-    border: 2px dotted green;
-  } */
-
+.sharesBTN,
+.playlistBTN,
+.personal-videosBTN {
+  height: 40px;
+  margin-right: 40px;
+}
 
 .all-cards {
-    /* width: 90%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-auto-rows: minmax(200px, auto);
-    /* grid-gap: 1rem; */
-    /* min-height: 20vh; */
   display: grid;
   grid-template-columns: repeat(4, 300px);
   grid-auto-rows: minmax(400px, auto);
