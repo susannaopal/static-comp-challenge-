@@ -4,11 +4,19 @@
 
   header {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 10%;
+    /* justify-content: center;
+    flex-direction: column; */
+    /* height: 10%; */
     background-color: #020b11;
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
+    align-items: flex-end;
+    display: flex;
+/* height: 10%; */
+background-color: #020b11;
+/* padding: 1.5
+rem
+; */
+flex-direction: row;
   }
 
 
@@ -62,21 +70,17 @@ body {
     margin: 1.5rem;
 
 }
-  .left-bar-info {
-      border: 2px solid palegreen;
-      display: flex;
-      margin-right: 40rem;
-  }
+
 
     .sharesBTN,
     .playlistBTN,
     .personal-videosBTN {
       border: 2px solid pink;
       height:4rem;
-      width: 30rem;
+      width: 6rem;
       border-radius: 5px;
-      font-size: 1em;
-      margin: 1.5rem;
+      /* font-size: 1em;
+      margin: 1.5rem; */
     }
 
 
