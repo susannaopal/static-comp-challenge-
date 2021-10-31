@@ -2,7 +2,7 @@
     font-family: 'Quicksand', sans-serif;
     }
 
-  header {
+  nav {
     display: flex;
     /* justify-content: center;
     flex-direction: column; */
@@ -11,8 +11,8 @@
     /* padding: 1.5rem; */
     align-items: flex-end;
     display: flex;
-/* height: 10%; */
-background-color: #020b11;
+    height: 20%;
+  background-color: #020b11;
 /* padding: 1.5
 rem
 ; */
@@ -24,6 +24,7 @@ body {
     background: lightgray;
     background-attachment: fixed;
     margin: 0;
+    height: 100vh;
   }
 
 
@@ -50,8 +51,8 @@ body {
     display: flex;
     display: grid;
     border: 4px yellow rgb(212, 24, 24);
-
 }
+
 .admin-username {
     color: rgb(49, 119, 211);
     border: 2px solid rgb(255, 173, 105);
@@ -60,15 +61,34 @@ body {
 }
 
 .logo {
-    border: 3px dotted white;
-    color: white;
-    border: 2px solid pink;
-    height:4rem;
-    width: 6rem;
-    border-radius: 5px;
-    font-size: 1em;
-    margin: 1.5rem;
+   border: 3px dotted white;
+  color: white;
+  border: 2px solid pink;
+  height:4rem;
+  width: 6rem;
+  border-radius: 5px;
+  font-size: 1em;
+  margin: 1.5rem;
+}
 
+
+.icon-btns {
+  /* //mess around with stuff and shit with margins */
+  display: flex;
+  width: 50%;
+  height: 100%;
+  border: 2px solid white;
+  align-items: flex-end;
+}
+
+.admin-stuff {
+  /* fix with margins & padding & shit */
+display: flex;
+width: 50%;
+height: 100%;
+border: 2px solid yellow;
+flex-direction: column;
+align-items: flex-end;
 }
 
 /* the buttons will need to be split up and spaced apart and icons added
@@ -84,6 +104,10 @@ spread out correctly towards the bottom left */
       /* font-size: 1em;
       margin: 1.5rem; */
     }
+
+  /* .top-BTNs {
+    border: 2px dotted green;
+  } */
 
 
 .all-cards {
