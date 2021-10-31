@@ -60,10 +60,8 @@ body {
     width: 6rem;
 }
 
-.logo {
-   border: 3px dotted white;
+.win-icon {
   color: white;
-  border: 2px solid pink;
   height:4rem;
   width: 6rem;
   border-radius: 5px;
