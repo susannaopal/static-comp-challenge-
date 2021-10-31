@@ -13,7 +13,7 @@
 
 
 body {
-    background: rgb(202, 187, 168);
+    background: lightgray;
     background-attachment: fixed;
     margin: 0;
   }
@@ -138,5 +138,8 @@ body {
  }
 
  .web-address {
-   word-break: break-word;
+  word-break: break-word;
+  background: #e5e1e1;
+  font-size: small;
+  font-weight: bolder;
  }
