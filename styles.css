@@ -54,21 +54,38 @@ body {
 }
 
 .admin-username {
-    color: rgb(49, 119, 211);
-    border: 2px solid rgb(255, 173, 105);
-    height:4rem;
-    width: 6rem;
+  color: rgb(49, 119, 211);
+  /* border: 2px solid rgb(255, 173, 105); */
+  height: 4px;
+  background-color: rgba(255,255,255,0);
+
 }
+
+/* .winner{
+  display: flex;
+  width: 50%;
+  height: 100%;
+  border: 2px solid white;
+  align-items: flex-end;
+} */
 
 .win-icon {
   color: white;
-  height:4rem;
-  width: 6rem;
+  height: 50px;
+  width: 70px;
   border-radius: 5px;
   font-size: 1em;
   margin: 1.5rem;
 }
 
+.username-icon
+{
+  color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  font-size: 1em;
+}
 
 .icon-btns {
   /* //mess around with stuff and shit with margins */
@@ -81,12 +98,12 @@ body {
 
 .admin-stuff {
   /* fix with margins & padding & shit */
-display: flex;
-width: 50%;
-height: 100%;
-border: 2px solid yellow;
-flex-direction: column;
-align-items: flex-end;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  border: 2px solid yellow;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 /* the buttons will need to be split up and spaced apart and icons added
