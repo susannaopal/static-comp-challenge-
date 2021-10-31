@@ -126,6 +126,13 @@ justify-content: space-around;
   justify-content: flex-end;
 }
 
+.white-arrow-icon {
+  color: white;
+  height: 70px;
+  width: 70px;
+  margin-bottom: 20px;
+}
+
 .sharesBTN,
 .playlistBTN,
 .personal-videosBTN {
