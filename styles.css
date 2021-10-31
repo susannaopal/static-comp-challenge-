@@ -203,8 +203,9 @@ justify-content: space-around;
   font-size: xx-large;
 }
 
-.mike-card {
-  isplay: inline-block;
-  position: relative;
-  width: 100%;
+.card-top7 {
+  background: url(assets/michael.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
