@@ -1,56 +1,48 @@
 *{
-    font-family: 'Quicksand', sans-serif;
-    }
+  font-family: 'Quicksand', sans-serif;
+}
 
-  nav {
-    display: flex;
-    /* justify-content: center;
-    flex-direction: column; */
-    /* height: 10%; */
-    background-color: #020b11;
-    /* padding: 1.5rem; */
-    align-items: flex-end;
-    display: flex;
-    height: 20%;
+nav {
+  display: flex;
   background-color: #020b11;
-/* padding: 1.5
-rem
-; */
-flex-direction: row;
-  }
+  align-items: flex-end;
+  display: flex;
+  height: 20%;
+  background-color: #020b11;
+  flex-direction: row
+}
 
 
 body {
-    background: lightgray;
-    background-attachment: fixed;
-    margin: 0;
-    height: 100vh;
+  background: lightgray;
+  background-attachment: fixed;
+  margin: 0;
+  height: 100vh;
   }
 
 
 
-  main {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    flex-direction: row;
-    height: 100vh;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    justify-content: center;
+main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-direction: row;
+  height: 100vh;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
 }
 
-  .left-bar-info {
-    display: flex;
-    display: grid;
-    border: 4px solid rgb(212, 24, 24);
-
+.left-bar-info {
+  display: flex;
+  display: grid;
+  border: 4px solid rgb(212, 24, 24);
   }
 
   .right-bar-info {
-    display: flex;
-    display: grid;
-    border: 4px yellow rgb(212, 24, 24);
+  display: flex;
+  display: grid;
+  border: 4px yellow rgb(212, 24, 24);
 }
 
 .admin-username {
@@ -115,9 +107,8 @@ justify-content: space-around;
 
 .white-arrow-icon {
   color: white;
-  height: 70px;
-  width: 70px;
-  margin-bottom: 20px;
+  height: 50px;
+  width: 50px;
 }
 
 .sharesBTN,
@@ -147,13 +138,14 @@ justify-content: space-around;
   border: 2px solid #e7e7e7;
   border-radius: 4px;
   padding: .5rem;
-  border: 2px solid black;
-  border-radius: 4px;
+  border-radius: 2px;
   background: white;
   border-radius: 1 px;
   padding: 0.5rem;
-  height: 50 vh;
+  height: 75vh;
   width: auto;
+  box-shadow: 1px 0px 4px 3px rgba(0,0,0,0.2);
+
 }
 
 
@@ -180,7 +172,7 @@ justify-content: space-around;
 
 
 .card-top1 {
-  background: url(assets/stanley.jpg);
+  background: url(assets/stanley.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -232,4 +224,20 @@ justify-content: space-around;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.views,
+.zero-2 {
+  color: white;
+  margin-left: 78%;
+}
+
+.views {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.zero-2 {
+  font-size: xx-large;
 }
