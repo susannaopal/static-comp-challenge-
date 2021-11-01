@@ -1,6 +1,9 @@
 ## Static-comp-challenge: the Office 2 Win
 Static comp challenge for Mod 2 - Turing
 
+## Contributor:
+- [Susanna Carey](https://github.com/susannaopal)
+
 ## Overview: 
 - The project was designed to match a comp provided utilizing CSS & HTML without any functionalty included.
 
@@ -26,3 +29,5 @@ Deploy link [here](https://susannaopal.github.io./)
 
 ## Future iterations: 
 - Make the site fully reactive depending on screen size
+
+## Project Spec can be found [here](https://frontend.turing.edu/projects/module-1/m1-static-comp)
