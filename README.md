@@ -24,7 +24,7 @@ Deploy link [here](https://susannaopal.github.io./)
 - Mostly matching the provided comp overall
 
 ## Challenges: 
-- Time management this took far longer that I expected
+- Time management (this took me far longer that I expected/would have liked)
 - Not being able to fully match the comp
 
 ## Future iterations: 
