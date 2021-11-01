@@ -6,7 +6,6 @@ nav {
   display: flex;
   background-color: #020b11;
   align-items: flex-end;
-  display: flex;
   height: 20%;
   background-color: #020b11;
   flex-direction: row
@@ -137,17 +136,12 @@ justify-content: space-around;
  .card-8  {
   border: 2px solid #e7e7e7;
   border-radius: 4px;
-  padding: .5rem;
-  border-radius: 2px;
   background: white;
   border-radius: 1 px;
   padding: 0.5rem;
-  height: 75vh;
-  width: auto;
   box-shadow: 1px 0px 4px 3px rgba(0,0,0,0.2);
 
 }
-
 
  .arrow-BTN {
   display:block;
@@ -168,6 +162,7 @@ justify-content: space-around;
  .zero-4 {
   color: #42bff5;
   font-size: xx-large;
+  margin: 0
 }
 
 
@@ -179,14 +174,14 @@ justify-content: space-around;
 }
 
 .card-top2 {
-  background: url(assets/pam.jpg);
+  background: url(assets/pam.jpeg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .card-top3 {
-  background: url(assets/jim-office.jpg);
+  background: url(assets/jim.jpeg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -200,7 +195,7 @@ justify-content: space-around;
 }
 
 .card-top5 {
-  background: url(assets/kelly.jpg);
+  background: url(assets/kelly.jpeg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -240,4 +235,33 @@ justify-content: space-around;
 
 .zero-2 {
   font-size: xx-large;
+}
+
+.recipient-name {
+  margin: 0
+}
+.date {
+  margin: 0
+}
+
+.playlist {
+  margin: 0
+}
+
+.playlist-name, {
+  margin: 0;
+}
+
+.recipient-name {
+  font-style: italic;
+}
+
+.date,
+.playlist {
+  font-size: x-small;
+}
+
+footer {
+  background: lightgray;
+  height: 80vh;
 }
